@@ -1,4 +1,5 @@
 #leetcode 46.Permutations
+from typing import List
 
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
@@ -21,3 +22,6 @@ class Solution:
         return results
 
     #        return list(map(list, itertools.permutations(nums)))
+
+solution = Solution()
+print(solution.permute([1,2,3]))
